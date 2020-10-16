@@ -1,0 +1,30 @@
+10:02:06 12-10-2020
+5003
+Main.vi<ERR>
+The invalid message string "Initiate Stops" recieved in MHL.
+
+
+10:02:41 12-10-2020
+5003
+Main.vi<ERR>
+The invalid message string "Initiate Stops" recieved in MHL.
+
+
+10:03:06 12-10-2020
+5003
+Main.vi<ERR>
+The invalid message string "Initiate Stops" recieved in MHL.
+
+
+10:03:37 12-10-2020
+5003
+Main.vi<ERR>
+The invalid message string "Initiate Stops" recieved in MHL.
+
+
+11:02:22 12-10-2020
+5003
+Main.vi<ERR>
+The invalid message string "Initiate Stops" recieved in MHL.
+
+

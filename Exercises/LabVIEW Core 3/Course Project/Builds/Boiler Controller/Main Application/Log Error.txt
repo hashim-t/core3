@@ -1,0 +1,24 @@
+11:04:41 12-10-2020
+5000
+Read UI Constants.vi<ERR>
+Unable to load UI Constance from INI file. Check weather the user selected the correct INI file.
+
+
+11:06:17 12-10-2020
+5000
+Read UI Constants.vi<ERR>
+Unable to load UI Constance from INI file. Check weather the user selected the correct INI file.
+
+
+11:11:28 12-10-2020
+5000
+Read UI Constants.vi<ERR>
+Unable to load UI Constance from INI file. Check weather the user selected the correct INI file.
+
+
+11:48:52 12-10-2020
+5000
+Read UI Constants.vi<ERR>
+Unable to load UI Constance from INI file. Check weather the user selected the correct INI file.
+
+

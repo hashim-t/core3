@@ -1,0 +1,131 @@
+<HTML>
+<HEAD>
+<TITLE>Main.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="Main.vi"></A><H2>Main.vi</H2>
+<P>The boiler controller allows a user to start and shut down a boiler.</P>
+<P>Use the Reset, start and Light pilot to sequencially Start the boiler.</P>
+<P>Use the fuel control valve to change the flow of fulel into the boiler.</P>
+<P>Use the Stop button to Shut down the boiler.</P>
+<P>To shut down the system off ar in the event of emergency, use the emergency stop button to stop the application completely.</P>
+<P><IMG SRC="Mainp.png" ALT="Main.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Reset</B> <P>Reset boiler.</P>
+<P>Activate the run interlock on the boiler.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Start Sequence</B> <P>Start primary fan to do a  pre purge that blew off the  combustible gas that accumulated in the boiler.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Pilot</B> <P>Open the Pilot gas valve and ignite pilot flame simultaneously. </P>
+<P>Main gas will be open when the pilot light proved.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Shutdown</B> <P>Stop the flow of natural gas to the combustion chanber.</P>
+<P>And stop combustion and do a post purge cycle.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Initiate Stop</B> <P>Shutdown the application completely. Click this button to halt execustion of all parellel loops, close  all open references, and exit.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cu32.png" ALT="cu32"></P>
+</TD>
+<TD>
+<B>Fuel Control Valve</B> <P>Change the amount of fuel flowing into the boiler.  </P>
+<P>Until the boiler is running, this value remains 0. Once the boiler is running, the value may range from 10-75%.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>Status</B> <P>Shows the tatus of boiler when the boiler going through different stages of its operation.</P>
+<P>Status shows appropriate message for the all of the boiler steps like Lock out, prepurge, Iginition, running, Stop, Post purge, ets......</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Primany Fan</B> <P>Primary fan runs during purge cycle to clear any cumbustaible gas that accumulated in the system.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Pilot Gas Valve</B> <P>Pilot gas valve opens in the iginition stage of boiler which allows  fuel that helps to make a pilot flame.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Pilot LED</B> <P>Pilot flame is ignited simultaneous to the pilot fuel start flowing to the pilot line. </P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Forced Draft Fan</B> <P>Forced draft fan helps to allow air into the combustion chamber for the process of combustion, Which start as the boiler start operating and stops when boiler stops.s</P>
+</TD>
+</TR>
+</Table>
+</BODY>
+</HTML>
