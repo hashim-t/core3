@@ -9,3 +9,10 @@ Timestamp	Event	Event Data
 11:39:52 13-10-2020	Boiler Ready	-
 11:39:56 13-10-2020	Start Pre-Purge	0
 11:39:58 13-10-2020	Pre-Purge Complete	2
+15:15:44 17-11-2020	Boiler Initialized	-
+15:15:46 17-11-2020	Boiler Ready	-
+15:15:46 17-11-2020	Start Pre-Purge	0
+15:15:48 17-11-2020	Pre-Purge Complete	2
+15:15:49 17-11-2020	Pilot On	True
+15:15:52 17-11-2020	Pilot Proved	30
+15:15:52 17-11-2020	Forced Draft Fan On	True

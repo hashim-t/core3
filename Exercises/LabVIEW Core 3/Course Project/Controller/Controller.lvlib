@@ -5,6 +5,11 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Test Vis" Type="Folder">
+		<Item Name="Test-Ignition.vi" Type="VI" URL="../Controler Tests/Test-Ignition.vi"/>
+		<Item Name="Test-ProvePilot.vi" Type="VI" URL="../Controler Tests/Test-ProvePilot.vi"/>
+		<Item Name="Test-Start Boiler.vi" Type="VI" URL="../Controler Tests/Test-Start Boiler.vi"/>
+	</Item>
 	<Item Name="Pre-Purge.vi" Type="VI" URL="../Pre-Purge.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
